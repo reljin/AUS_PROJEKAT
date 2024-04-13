@@ -1,10 +1,10 @@
 STA 1
 TCP 60841
 
-HR_INT  1 2400  0  0   4095  1200  AO  @RegulacijaOtvorenostiVentila
-DO_REG  2 3600  0  0      1     0  DO  @Ukljucivanje/IskljucivanjeSvetla 2
-HR_INT  1 2401  0  0   4095  1200  AO  @RegulacijaPumpeZaHranljiveMaterije
-IN_REG  1 3300  0  0   4095  1200  AI  @SenzorVlaznostiVazduha
-IN_REG  1 3301  0  0   4095  1200  AI  @SenzorTemperature
-IN_REG  1 3302  0  0   4095  1200  AI  @SenzorNivoaSvetlosti
-DI_REG  1 3000  0  0      1     0  DI  @AlarmZaNedostatakVode
+HR_INT  1 2400  0  0   4095  1200  AO  @RegulacijaVentila 4
+DO_REG  2 3600  0  0      1     0  DO  @U/ISvetla 2
+HR_INT  1 2401  0  0   4095  1200  AO  @RegulacijaPumpe 4
+IN_REG  1 3300  0  0   4095  1200  AI  @SenzorVlaznostiV 4
+IN_REG  1 3301  0  0   4095  1200  AI  @SenzorTemperature 4
+IN_REG  1 3302  0  0   4095  1200  AI  @SenzorNivoaSvetlosti 4
+DI_REG  1 3000  0  0      1     0  DI  @AlarmNedostatakVode 2
