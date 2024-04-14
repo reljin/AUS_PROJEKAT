@@ -1,4 +1,4 @@
-STA 1
+STA 12
 TCP 60841
 
 HR_INT  1 2400  0  0   4095  1200  AO  @RegulacijaVentila 4
